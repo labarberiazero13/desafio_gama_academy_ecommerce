@@ -27,9 +27,12 @@ Abra no Workbench
 
 Desenvolvido para fins de estudos!
 
+⚠️ TODOS OS DADOS PESSOAIS COMO, NOME, EMAIL, SENHA, CPF, ENDEREÇO, SÃO FICTÍCIOS!!! ⚠️
+
 ## 🛠️ Construído com
 
 * [Workbench](https://dev.mysql.com/downloads/workbench/) - Ferramenta
+* [4Devs](https://www.4devs.com.br) - Ferramenta útilizada para inserir dados fictícios
 
 ## ✒️ Autores
 
