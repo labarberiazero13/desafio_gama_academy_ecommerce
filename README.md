@@ -32,7 +32,7 @@ Desenvolvido para fins de estudos!
 ## 🛠️ Construído com
 
 * [Workbench](https://dev.mysql.com/downloads/workbench/) - Ferramenta
-* [4Devs](https://www.4devs.com.br) - Ferramenta útilizada para inserir dados fictícios
+* [4Devs](https://www.4devs.com.br) - Ferramenta utilizada para inserir dados fictícios
 
 ## ✒️ Autores
 
