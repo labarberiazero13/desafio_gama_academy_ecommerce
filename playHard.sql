@@ -506,10 +506,9 @@ select * from pedido inner join item_pedido on pedido.numero = item_pedido.pedid
     inner join cliente on pedido.cliente_id = cliente.id;
 
 /* QUESTÃO 8 - Mostre quantos pedidos foram feitos por mês no ano de 2022 */
-select pedido.data_pedido, pedido.valor_final, pedido.numero from
-    pedido inner join item_pedido
-    on pedido.numero = item_pedido.pedido_numero
-    order by pedido.data_pedido;
+select month(pedido.data_pedido), count(item_pedido.quantidade) from
+	pedido inner join item_pedido
+    group by month(pedido.data_pedido);
 
 /* QUESTÃO 9 - Mostre quanto foi faturado por mês */
 select data_pedido, sum(valor_final) as "Faturamento" from pedido
